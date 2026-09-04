@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang — Nama Anda</title> <!-- GANTI: judul tab -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__brand">Nama Anda</a> <!-- GANTI -->
+      <button class="navbar__toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+      </button>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">Tentang</a></li>
+        <li><a href="skills.html">Keahlian</a></li>
+        <li><a href="projects.html">Proyek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h1>Tentang Saya</h1>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__side">
+          <!-- GANTI: ganti foto-profil.svg dengan foto asli kamu, misal foto.jpg -->
+          <img src="images/foto-profil.jpeg" alt="Foto profil Nama Anda">
+
+          <ul class="about__facts">
+            <li><span>Nama</span><span>Alvin S. Padangaran</span></li> <!-- GANTI -->
+            <li><span>NIM</span><span>E1E123060</span></li> <!-- GANTI -->
+            <li><span>Kampus</span><span>Universitas Halu Oleo</span></li> <!-- GANTI -->
+            <li><span>Jurusan</span><span>Teknik Informatika</span></li> <!-- GANTI -->
+            <li><span>Lokasi</span><span>Kendari, Indonesia</span></li> <!-- GANTI -->
+            <li><span>Status</span><span>Mahasiswa</span></li> <!-- GANTI -->
+          </ul>
+        </div>
+
+        <div class="about__main">
+          <!-- GANTI: cerita singkat tentang dirimu, 2-4 paragraf -->
+          <p>
+            Saya adalah mahasiswa Teknik Informatika yang tertarik pada
+            pengembangan perangkat lunak, khususnya aplikasi web dan sistem
+            berbasis blockchain. Saya senang belajar hal baru melalui proyek
+            kelompok maupun eksplorasi mandiri.
+          </p>
+          <p>
+            Di luar perkuliahan, saya suka mengulik proyek kecil untuk memperdalam
+            pemahaman tentang struktur data, arsitektur sistem, dan desain
+            antarmuka yang sederhana namun fungsional.
+          </p>
+
+          <h2 style="margin-top: 40px;">Perjalanan Singkat</h2>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__year">2023 — Sekarang</div>
+              <!-- GANTI -->
+              <h3>Mahasiswa Teknik Informatika</h3>
+              <p>Universitas Halu Oleo Kendari, Fakultas Teknik.</p>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__year">2024</div>
+              <!-- GANTI -->
+              <h3>Proyek Kelompok — Sistem Informasi</h3>
+              <p>Ikut merancang alur sistem dan dokumentasi untuk proyek akhir mata kuliah.</p>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__year">2025</div>
+              <!-- GANTI -->
+              <h3>Eksplorasi Blockchain</h3>
+              <p>Mempelajari dasar smart contract dan aplikasi terdesentralisasi (DApp).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>&copy; <span data-year>2026</span> Nama Anda. Semua hak dilindungi.</small> <!-- GANTI -->
+      <ul class="footer__social">
+        <li><a href="https://github.com/alvvvn1144">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/_alvvnnnn">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

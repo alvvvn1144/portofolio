@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GANTI: judul tab browser -->
+  <title>Nama Anda — Software Engineer Portfolio</title>
+  <meta name="description" content="Portofolio Nama Anda, mahasiswa Teknik Informatika."> <!-- GANTI: deskripsi -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__brand">Nama Anda</a> <!-- GANTI: nama/logo -->
+      <button class="navbar__toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+      </button>
+      <ul class="navbar__links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="skills.html">Keahlian</a></li>
+        <li><a href="projects.html">Proyek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Halo, saya</p>
+        <!-- GANTI: nama lengkap -->
+        <h1>Nama Anda</h1>
+        <!-- GANTI: tagline singkat -->
+        <p class="hero__lead">
+          Mahasiswa Teknik Informatika yang senang membangun aplikasi web dan
+          bereksperimen dengan sistem terdistribusi. Fokus saat ini: pengembangan
+          front-end, back-end, dan proyek berbasis blockchain.
+        </p>
+        <div class="hero__actions">
+          <a href="projects.html" class="btn btn--primary">Lihat Proyek</a>
+          <a href="contact.html" class="btn btn--outline">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="hero__code">
+        <!-- Dekorasi kode, boleh diganti/dihapus -->
+        <pre><span class="tok-com">// profil.js</span>
+<span class="tok-key">const</span> profil = {
+  nama: <span class="tok-str">"Nama Anda"</span>,
+  peran: <span class="tok-str">"Mahasiswa Teknik Informatika"</span>,
+  fokus: [<span class="tok-str">"Web"</span>, <span class="tok-str">"Blockchain"</span>, <span class="tok-str">"UI/UX"</span>],
+  status: <span class="tok-str">"Terbuka untuk magang"</span>
+};</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RINGKASAN SINGKAT ============ -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section__header">
+        <h2>Sekilas tentang saya</h2>
+        <!-- GANTI: ringkasan 2-3 kalimat -->
+        <p>
+          Saya belajar Teknik Informatika di Universitas Halu Oleo Kendari dan
+          mengerjakan beberapa proyek kelompok mulai dari sistem informasi hingga
+          aplikasi berbasis blockchain. Halaman ini adalah portofolio pribadi
+          untuk menampilkan proyek dan keahlian saya.
+        </p>
+        <a href="about.html" class="btn btn--outline" style="margin-top: 8px;">Selengkapnya tentang saya</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <small>&copy; <span data-year>2026</span> Nama Anda. Semua hak dilindungi.</small> <!-- GANTI: nama -->
+      <ul class="footer__social">
+        <li><a href="https://github.com/alvvvn1144">GitHub</a></li> <!-- GANTI: link GitHub -->
+        <li><a href="#">LinkedIn</a></li> <!-- GANTI: link LinkedIn -->
+        <li><a href="https://www.instagram.com/_alvvnnnn">Instagram</a></li> <!-- GANTI: link Instagram -->
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

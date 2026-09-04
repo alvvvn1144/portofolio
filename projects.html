@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyek — Nama Anda</title> <!-- GANTI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__brand">Nama Anda</a> <!-- GANTI -->
+      <button class="navbar__toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+      </button>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="skills.html">Keahlian</a></li>
+        <li><a href="projects.html" aria-current="page">Proyek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h1>Proyek</h1>
+        <p>Beberapa proyek yang pernah saya kerjakan, baik individu maupun kelompok.</p> <!-- GANTI -->
+      </div>
+
+      <!-- GANTI: duplikasi blok .project-card ini untuk menambah proyek baru -->
+      <div class="project-list">
+
+        <article class="project-card">
+          <img src="images/project1.jpeg" alt="Tangkapan layar Proyek Satu"> <!-- GANTI: gambar & alt -->
+          <div class="project-card__body">
+            <h3>Nama Proyek Satu</h3> <!-- GANTI -->
+            <div class="project-card__meta">
+              <span class="project-card__tag">React.js</span>
+              <span class="project-card__tag">Node.js</span>
+              <span class="project-card__tag">MySQL</span>
+            </div>
+            <!-- GANTI: deskripsi singkat proyek -->
+            <p>
+              Deskripsi singkat mengenai proyek ini: masalah apa yang diselesaikan,
+              peran kamu dalam tim, dan hasil yang dicapai.
+            </p>
+            <div class="project-card__links">
+              <a href="#">Lihat Demo</a> <!-- GANTI: link demo -->
+              <a href="#">Kode Sumber</a> <!-- GANTI: link repo -->
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project2.jpeg" alt="Tangkapan layar Proyek Dua"> <!-- GANTI -->
+          <div class="project-card__body">
+            <h3>Nama Proyek Dua</h3> <!-- GANTI -->
+            <div class="project-card__meta">
+              <span class="project-card__tag">Solidity</span>
+              <span class="project-card__tag">Web3.js</span>
+              <span class="project-card__tag">MetaMask</span>
+            </div>
+            <p>
+              Deskripsi singkat mengenai proyek ini: masalah apa yang diselesaikan,
+              peran kamu dalam tim, dan hasil yang dicapai.
+            </p>
+            <div class="project-card__links">
+              <a href="#">Lihat Demo</a>
+              <a href="#">Kode Sumber</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project3.jpeg" alt="Tangkapan layar Proyek Tiga"> <!-- GANTI -->
+          <div class="project-card__body">
+            <h3>Nama Proyek Tiga</h3> <!-- GANTI -->
+            <div class="project-card__meta">
+              <span class="project-card__tag">Python</span>
+              <span class="project-card__tag">Data Structure</span>
+            </div>
+            <p>
+              Deskripsi singkat mengenai proyek ini: masalah apa yang diselesaikan,
+              peran kamu dalam tim, dan hasil yang dicapai.
+            </p>
+            <div class="project-card__links">
+              <a href="#">Lihat Demo</a>
+              <a href="#">Kode Sumber</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>&copy; <span data-year>2026</span> Nama Anda. Semua hak dilindungi.</small> <!-- GANTI -->
+      <ul class="footer__social">
+        <li><a href="https://github.com/alvvvn1144">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/_alvvnnnn">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
